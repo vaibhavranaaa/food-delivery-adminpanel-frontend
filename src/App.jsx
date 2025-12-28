@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import AddFood from "./pages/AddFood/AddFood"
 import ListFood from "./pages/ListFood/ListFood"
-import Oders from "./pages/Orders/Oders"
+import Orders from "./pages/Orders/Orders"
 import SideBar from "./components/SideBar/SideBar"
 import Menubar from "./components/MenuBar/Menubar"
 import { useState } from "react"
@@ -29,7 +29,7 @@ const App = () => {
                     <Routes>
                       <Route path='/add' element={<AddFood/>}/>
                       <Route path='/list' element={<ListFood/>}/>
-                      <Route path='/orders' element={<Oders/>}/>
+                      <Route path='/orders' element={<Orders/>}/>
                       <Route path='/' element={<ListFood/>}/>
 
 
